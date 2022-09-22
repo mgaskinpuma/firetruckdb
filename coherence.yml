@@ -10,6 +10,7 @@ api:
   system:
     cpu: 2
     memory: 2G
+    health_check: "/graphql/health"
 
   resources:
   - name: db1
